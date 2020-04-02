@@ -1,6 +1,11 @@
 package com.LeetCodeThirtyDayChallenge;
 import java.util.HashMap;
 import java.util.Map;
+
+/**
+ * Author: Chandra sekhar Polavarapu
+ * Description: Find the one and only lonley number in the array. eg: [2,2,1] -> return 1.
+ */
 public class DayOneChallenge {
     public int singleNumber(int nums[]) {
         HashMap<Integer, Integer> numberMap = new HashMap();
