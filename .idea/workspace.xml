@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f8db9-390d-44f2-a7b4-3bc4bf3b4726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/DayTwoChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/DayOneChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/DayOneChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/DayTwoChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/DayTwoChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,22 +79,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="638" y="184" key="#xdebugger.evaluate/0.0.1504.963@0.0.1504.963" timestamp="1585802576902" />
-    <state width="1461" height="200" key="GridCell.Tab.0.bottom" timestamp="1585849407302">
+    <state width="1461" height="200" key="GridCell.Tab.0.bottom" timestamp="1585850882442">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="200" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1585849407302" />
-    <state width="1461" height="200" key="GridCell.Tab.0.center" timestamp="1585849407302">
+    <state width="1461" height="200" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1585850882442" />
+    <state width="1461" height="200" key="GridCell.Tab.0.center" timestamp="1585850882442">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="200" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1585849407302" />
-    <state width="1461" height="200" key="GridCell.Tab.0.left" timestamp="1585849407302">
+    <state width="1461" height="200" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1585850882442" />
+    <state width="1461" height="200" key="GridCell.Tab.0.left" timestamp="1585850882442">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="200" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1585849407302" />
-    <state width="1461" height="200" key="GridCell.Tab.0.right" timestamp="1585849407302">
+    <state width="1461" height="200" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1585850882442" />
+    <state width="1461" height="200" key="GridCell.Tab.0.right" timestamp="1585850882442">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="200" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1585849407302" />
+    <state width="1461" height="200" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1585850882442" />
     <state width="1461" height="317" key="GridCell.Tab.1.bottom" timestamp="1585845138928">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -111,16 +111,5 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1461" height="317" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1585845138928" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/DayOneChallenge.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
