@@ -9,6 +9,10 @@ public class Main {
         DayOneChallenge dayOneChallenge = new DayOneChallenge();
         DayTwoChallenge dayTwoChallenge = new DayTwoChallenge();
         DayThreeChallenge dayThreeChallenge = new DayThreeChallenge();
+        DayFourChallenge dayFourChallenge = new DayFourChallenge();
+
+        int arrayWithZeros[] = {1, 2, 0, 3, 6};
+        dayFourChallenge.moveZeroes(arrayWithZeros);
 
         int nums[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         dayThreeChallenge.maxSubArray(nums);
