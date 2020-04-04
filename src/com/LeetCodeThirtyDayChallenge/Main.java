@@ -5,14 +5,18 @@ import com.LeetCodeThirtyDayChallenge.DayOneChallenge;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         DayOneChallenge dayOneChallenge = new DayOneChallenge();
         DayTwoChallenge dayTwoChallenge = new DayTwoChallenge();
+        DayThreeChallenge dayThreeChallenge = new DayThreeChallenge();
 
-        boolean result1 = dayTwoChallenge.isHappy(7);
+        int nums[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        dayThreeChallenge.maxSubArray(nums);
 
-        System.out.println("result is: "+result1);
-        int sampleArray[] = {4,1,2,1,2};
+        boolean result1 = dayTwoChallenge.isHappy(35);
+
+        System.out.println("result is: " + result1);
+        int sampleArray[] = {4, 1, 2, 1, 2};
         int result = dayOneChallenge.singleNumber(sampleArray);
         System.out.println(result);
     }

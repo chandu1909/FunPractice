@@ -10,7 +10,7 @@ package com.LeetCodeThirtyDayChallenge;
  */
 public class DayTwoChallenge {
     public boolean isHappy(int n) {
-        int slow = n,fast = n; // slow , fast
+     /*   int slow = n,fast = n; // slow , fast
         do{
             slow = compute(slow); // slow computes only once
             fast = compute(compute(fast)); // fast computes 2 times
@@ -21,11 +21,26 @@ public class DayTwoChallenge {
 
     }
     public int compute(int n){
-        int s = 0;
+        int sum = 0;
         while(n != 0){
-            s += (n%10)*(n%10); //Calculating sum of squares
+            sum += (n%10)*(n%10); //Calculating sum of squares
             n = n/10; //going to the next digit
         }
-        return s;
+        return sum;*/
+        int sum = 0;
+        boolean flag = false;
+        try {
+            while (n > 0) {
+                sum = sum + (n % 10) * (n % 10); //Storing the sum
+                n = n / 10; //replacing next value
+            }
+            if (sum > 9) { // but Leetcode doesnt wait until exception happens. It says timedout
+                return isHappy(sum); //recursion
+            } else if (sum == 1) flag = true;
+            return flag;
+        } catch (StackOverflowError e) {
+            return flag;
+        }
+
     }
 }
