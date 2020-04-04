@@ -10,12 +10,12 @@ public class DayFourChallenge {
 
         int zerosPointer = 0;
         int temp = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0) {
+        for (int i = 0; i < nums.length; i++) { //Traverse through the array
+            if (nums[i] != 0) { //Enters only if the number is non-zero
                 temp = nums[zerosPointer];
-                nums[zerosPointer] = nums[i];
+                nums[zerosPointer] = nums[i]; //regular swapping
                 nums[i] = temp;
-                zerosPointer++;
+                zerosPointer++; //this value doesn't get incrimented if the value is zero so it hols the location
             }
         }
     }
