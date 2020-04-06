@@ -10,7 +10,10 @@ public class Main {
         DayTwoChallenge dayTwoChallenge = new DayTwoChallenge();
         DayThreeChallenge dayThreeChallenge = new DayThreeChallenge();
         DayFourChallenge dayFourChallenge = new DayFourChallenge();
+        DayFiveChallenge dayFiveChallenge = new DayFiveChallenge();
 
+        int stockPrice[] = {7, 1, 5, 3, 6, 4};
+        dayFiveChallenge.maxProfit(stockPrice);
         int arrayWithZeros[] = {1, 2, 0, 3, 6};
         dayFourChallenge.moveZeroes(arrayWithZeros);
 
