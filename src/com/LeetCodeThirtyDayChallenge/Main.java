@@ -2,6 +2,9 @@ package com.LeetCodeThirtyDayChallenge;
 
 import com.LeetCodeThirtyDayChallenge.DayOneChallenge;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,6 +14,10 @@ public class Main {
         DayThreeChallenge dayThreeChallenge = new DayThreeChallenge();
         DayFourChallenge dayFourChallenge = new DayFourChallenge();
         DayFiveChallenge dayFiveChallenge = new DayFiveChallenge();
+        DaySixChallenge daySixChallenge = new DaySixChallenge();
+
+        String []strArray  = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        daySixChallenge.groupAnagrams(strArray);
 
         int stockPrice[] = {7, 1, 5, 3, 6, 4};
         dayFiveChallenge.maxProfit(stockPrice);
