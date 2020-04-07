@@ -5,5 +5,7 @@ public class Main {
         ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
         int height[]={1,8,6,2,5,4,8,3,7};
         containerWithMostWater.process(height);
+        LettrCombinationsOfPhoneNumber lettrCombinationsOfPhoneNumber = new LettrCombinationsOfPhoneNumber();
+        lettrCombinationsOfPhoneNumber.letterCombinations("23");
     }
 }
