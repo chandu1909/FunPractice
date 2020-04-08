@@ -15,8 +15,12 @@ public class Main {
         DayFourChallenge dayFourChallenge = new DayFourChallenge();
         DayFiveChallenge dayFiveChallenge = new DayFiveChallenge();
         DaySixChallenge daySixChallenge = new DaySixChallenge();
+        DaySevenChallenge daySevenChallenge = new DaySevenChallenge();
 
-        String []strArray  = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        int[] arr = {1, 2, 3};
+        daySevenChallenge.countElements(arr);
+
+        String[] strArray = {"eat", "tea", "tan", "ate", "nat", "bat"};
         daySixChallenge.groupAnagrams(strArray);
 
         int stockPrice[] = {7, 1, 5, 3, 6, 4};
