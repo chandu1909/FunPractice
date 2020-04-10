@@ -18,6 +18,10 @@ public class DayNineChallenge {
         return false;
     }
 
+    /**
+     * @param S holds a string
+     * @return a processed string after removing the characters and backspaces
+     */
     public String process(String S) {
         StringBuilder resultS = new StringBuilder();
         for (int i = 0; i < S.length(); i++) {
