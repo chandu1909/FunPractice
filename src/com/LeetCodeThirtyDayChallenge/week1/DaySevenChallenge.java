@@ -1,4 +1,4 @@
-package com.LeetCodeThirtyDayChallenge;
+package com.LeetCodeThirtyDayChallenge.week1;
 
 import java.util.Arrays;
 import java.util.HashSet;

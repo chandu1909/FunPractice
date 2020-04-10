@@ -1,4 +1,4 @@
-package com.LeetCodeThirtyDayChallenge;
+package com.LeetCodeThirtyDayChallenge.week1;
 
 /**
  * @Author: Chandra sekhar Polavarapu

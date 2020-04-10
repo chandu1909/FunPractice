@@ -1,9 +1,4 @@
-package com.LeetCodeThirtyDayChallenge;
-
-import com.LeetCodeThirtyDayChallenge.DayOneChallenge;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.LeetCodeThirtyDayChallenge.week1;
 
 public class Main {
 
@@ -35,6 +30,7 @@ public class Main {
 
         System.out.println("result is: " + result1);
         int sampleArray[] = {4, 1, 2, 1, 2};
+
         int result = dayOneChallenge.singleNumber(sampleArray);
         System.out.println(result);
     }
