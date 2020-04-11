@@ -9,8 +9,8 @@ public class Main {
         //@Todo I need to figure out a way to pass a complete linkedlist the method.
         // dayEightChallenge.middleNode(new ListNode(2));
 
-        DayNineChallenge dayNineChallenge = new DayNineChallenge()
-        dayNineChallenge.backspaceCompare("ab#c", "ad#c");*/
+        DayNineChallenge dayNineChallenge = new DayNineChallenge();
+        dayNineChallenge.backspaceCompare("ab#c", "ad#c");
 
         DayTenChallenge dayTenChallenge = new DayTenChallenge();
         dayTenChallenge.getMin();
