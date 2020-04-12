@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f8db9-390d-44f2-a7b4-3bc4bf3b4726" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayElevenChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayTenChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayTenChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +39,20 @@
       <recent name="com.LeetCodeThirtyDayChallenge.week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LeetCodeThirtyDayChallenge.week2.BinaryTree" />
+      <module name="FunPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LeetCodeThirtyDayChallenge.week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.OtherPractice.Main" />
       <module name="FunPractice" />
@@ -76,9 +93,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.BinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
@@ -127,22 +146,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="93" y="93" width="1319" height="777" key="DiffContextDialog/0.0.1504.963@0.0.1504.963" timestamp="1585851223277" />
-    <state width="1461" height="183" key="GridCell.Tab.0.bottom" timestamp="1586581165473">
+    <state width="1461" height="183" key="GridCell.Tab.0.bottom" timestamp="1586664637310">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="183" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586581165473" />
-    <state width="1461" height="183" key="GridCell.Tab.0.center" timestamp="1586581165473">
+    <state width="1461" height="183" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586664637310" />
+    <state width="1461" height="183" key="GridCell.Tab.0.center" timestamp="1586664637310">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="183" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586581165473" />
-    <state width="1461" height="183" key="GridCell.Tab.0.left" timestamp="1586581165473">
+    <state width="1461" height="183" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586664637310" />
+    <state width="1461" height="183" key="GridCell.Tab.0.left" timestamp="1586664637310">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="183" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586581165473" />
-    <state width="1461" height="183" key="GridCell.Tab.0.right" timestamp="1586581165473">
+    <state width="1461" height="183" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586664637310" />
+    <state width="1461" height="183" key="GridCell.Tab.0.right" timestamp="1586664637310">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="183" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586581165473" />
+    <state width="1461" height="183" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586664637310" />
     <state width="1461" height="283" key="GridCell.Tab.1.bottom" timestamp="1586580259743">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

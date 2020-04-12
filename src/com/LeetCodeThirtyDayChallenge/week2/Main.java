@@ -1,5 +1,8 @@
 package com.LeetCodeThirtyDayChallenge.week2;
 
+import com.sun.source.tree.BinaryTree;
+import com.sun.source.tree.Tree;
+
 import java.util.LinkedList;
 
 public class Main {
@@ -16,16 +19,12 @@ public class Main {
         dayTenChallenge.getMin();
         dayTenChallenge.push(2);
         dayTenChallenge.push(0);
-        dayTenChallenge.push(3);
-        dayTenChallenge.push(0);
         dayTenChallenge.getMin();
         dayTenChallenge.pop();
-        dayTenChallenge.getMin();
-        dayTenChallenge.pop();
-        dayTenChallenge.getMin();
-        dayTenChallenge.pop();
-        dayTenChallenge.getMin();
 
+        DayElevenChallenge dayElevenChallenge = new DayElevenChallenge();
+
+        //dayElevenChallenge.diameterOfBinaryTree()
 
     }
 }
