@@ -24,7 +24,10 @@ public class Main {
 
         DayElevenChallenge dayElevenChallenge = new DayElevenChallenge();
 
-        //dayElevenChallenge.diameterOfBinaryTree()
+        //dayElevenChallenge.diameterOfBinaryTree()*/
+        DayTwelveChallnge dayTwelveChallnge = new DayTwelveChallnge();
+        int []a = {9,10,1,7,3};
+        dayTwelveChallnge.lastStoneWeight(a);
 
     }
 }

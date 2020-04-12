@@ -1,31 +1,26 @@
 package com.LeetCodeThirtyDayChallenge.week2;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class DayTwelveChallnge {
     public int lastStoneWeight(int[] stones) {
-        if (stones.length==0){
+        if (stones.length == 0) {
             return 0;
         }
-        List<Integer> stonesList = Arrays.stream(stones).boxed().collect(Collectors.toList());
-        while (stonesList.size()!=1){
-            int stone1 = Collections.max(stonesList);
-            int locationOfStone1 = stonesList.indexOf(stone1);
-            stonesList.remove(locationOfStone1);
-            int stone2 = Collections.max(stonesList);
-            int locationOfStone2 = stonesList.indexOf(stone2);
-            stonesList.remove(locationOfStone2);
-            int remWeight = Math.max(stone1,stone2)-Math.min(stone1,stone2);
-            stonesList.add(remWeight);
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
+        for (int i:stones){
+            priorityQueue.add(i);
         }
-        System.out.print(stonesList);
-
-        return stonesList.get(0);
+        while (priorityQueue.size() != 1) {
+            int stone1 = priorityQueue.poll();
+            int stone2 = priorityQueue.poll();
+            int remWeight = Math.max(stone1, stone2) - Math.min(stone1, stone2);
+            priorityQueue.add(remWeight);
+        }
+        System.out.println(priorityQueue);
+        return priorityQueue.peek();
 
     }
 
