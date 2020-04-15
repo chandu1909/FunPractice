@@ -24,10 +24,18 @@ public class Main {
 
         DayElevenChallenge dayElevenChallenge = new DayElevenChallenge();
 
-        //dayElevenChallenge.diameterOfBinaryTree()*/
+        //dayElevenChallenge.diameterOfBinaryTree()
         DayTwelveChallnge dayTwelveChallnge = new DayTwelveChallnge();
         int []a = {9,10,1,7,3};
         dayTwelveChallnge.lastStoneWeight(a);
+
+        DayThirteenChallenge dayThirteenChallenge = new DayThirteenChallenge();
+        int binaryArray[] = {1,0,0,0,1};
+        dayThirteenChallenge.findMaxLength(binaryArray);
+
+        DayFourteenChallenge dayFourteenChallenge = new DayFourteenChallenge();
+        int matrix[][] = {{1,1},{1,1},{0,2},{1,3}};
+        dayFourteenChallenge.stringShift("abcdefg",matrix);
 
     }
 }
