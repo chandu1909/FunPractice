@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47f8db9-390d-44f2-a7b4-3bc4bf3b4726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayFourteenChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayThirteenChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week3/DayFifteen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +36,7 @@
       <recent name="com.LeetCodeThirtyDayChallenge.week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.LeetCodeThirtyDayChallenge.week2.BinaryTree" />
       <module name="FunPractice" />
@@ -80,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LeetCodeThirtyDayChallenge.week3.Main" />
+      <module name="FunPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LeetCodeThirtyDayChallenge.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.LeetCodeThirtyDayChallenge.week1.Main" />
       <module name="FunPractice" />
@@ -95,9 +104,11 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Main" />
@@ -147,46 +158,46 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="93" y="93" width="1319" height="777" key="DiffContextDialog/0.0.1504.963@0.0.1504.963" timestamp="1585851223277" />
-    <state width="1461" height="206" key="GridCell.Tab.0.bottom" timestamp="1586916121112">
+    <state width="1461" height="206" key="GridCell.Tab.0.bottom" timestamp="1587005289490">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="206" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586916121112" />
-    <state width="1461" height="206" key="GridCell.Tab.0.center" timestamp="1586916121111">
+    <state width="1461" height="206" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1587005289490" />
+    <state width="1461" height="206" key="GridCell.Tab.0.center" timestamp="1587005289490">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="206" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586916121111" />
-    <state width="1461" height="206" key="GridCell.Tab.0.left" timestamp="1586916121111">
+    <state width="1461" height="206" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1587005289490" />
+    <state width="1461" height="206" key="GridCell.Tab.0.left" timestamp="1587005289490">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="206" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586916121111" />
-    <state width="1461" height="206" key="GridCell.Tab.0.right" timestamp="1586916121111">
+    <state width="1461" height="206" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1587005289490" />
+    <state width="1461" height="206" key="GridCell.Tab.0.right" timestamp="1587005289490">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="206" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586916121111" />
-    <state width="1461" height="283" key="GridCell.Tab.1.bottom" timestamp="1586913931532">
+    <state width="1461" height="206" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1587005289490" />
+    <state width="1461" height="283" key="GridCell.Tab.1.bottom" timestamp="1587004375351">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="283" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586913931532" />
-    <state width="1461" height="283" key="GridCell.Tab.1.center" timestamp="1586913931532">
+    <state width="1461" height="283" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1587004375351" />
+    <state width="1461" height="283" key="GridCell.Tab.1.center" timestamp="1587004375351">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="283" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1586913931532" />
-    <state width="1461" height="283" key="GridCell.Tab.1.left" timestamp="1586913931532">
+    <state width="1461" height="283" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1587004375351" />
+    <state width="1461" height="283" key="GridCell.Tab.1.left" timestamp="1587004375351">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="283" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1586913931532" />
-    <state width="1461" height="283" key="GridCell.Tab.1.right" timestamp="1586913931532">
+    <state width="1461" height="283" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1587004375351" />
+    <state width="1461" height="283" key="GridCell.Tab.1.right" timestamp="1587004375351">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="283" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1586913931532" />
+    <state width="1461" height="283" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1587004375351" />
     <state x="504" y="192" key="RollbackChangesDialog" timestamp="1585851150625">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="504" y="192" key="RollbackChangesDialog/0.0.1504.963@0.0.1504.963" timestamp="1585851150625" />
-    <state x="449" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1586910363308">
+    <state x="449" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1587002215730">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="449" y="305" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1586910363308" />
+    <state x="449" y="305" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1587002215730" />
     <state x="381" y="183" width="759" height="596" key="find.popup" timestamp="1586839413696">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
