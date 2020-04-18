@@ -1,6 +1,8 @@
 package com.LeetCodeThirtyDayChallenge.week3;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 public class DayFifteen {
     public int[] productExceptSelf(int[] nums) {
@@ -8,6 +10,7 @@ public class DayFifteen {
         if (nums.length == 1) return nums;
 
         int[] product = new int[nums.length];
+
 
         for (int i = 0; i < nums.length; i++) {
             int prod = 0;

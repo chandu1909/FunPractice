@@ -6,5 +6,10 @@ public class Main {
         int inputAray[] = {1,2,3,4};
 
         dayFifteen.productExceptSelf(inputAray);
+
+        DaySixteenChallenge daySixteenChallenge = new DaySixteenChallenge();
+        boolean result = daySixteenChallenge.checkValidString("*)(");
+        System.out.println(result);
+
     }
 }
