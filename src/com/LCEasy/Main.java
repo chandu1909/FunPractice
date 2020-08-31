@@ -6,13 +6,20 @@ package com.LCEasy;
  */
 public class Main {
     public static void main(String[] args) {
+
+        /**
+         * Remove Duplicates Problem
         RemoveDuplicates removeDuplicates = new RemoveDuplicates();
         int nums[] = {1,1,2};
-        int len = removeDuplicates.removeDuplicates(nums);
+        int len = removeDuplicates.removeDuplicates(nums);*/
 
-        for (int i=0; i<len; i++){
-            System.out.println(nums[i]);
-        }
+        // Length of last word problem
+        LasWordLength lasWordLength = new LasWordLength();
+        String sentence = "g";
+        int size = lasWordLength.lengthOfLastWord(sentence);
+        System.out.println("length of the word is : "+size);
+
+
 
     }
 }
