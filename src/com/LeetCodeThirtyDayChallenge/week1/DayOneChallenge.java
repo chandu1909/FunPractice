@@ -1,4 +1,5 @@
 package com.LeetCodeThirtyDayChallenge.week1;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,6 +17,7 @@ public class DayOneChallenge {
             if (entry.getValue().equals(1)) {
                 return entry.getKey();
             }
+
         }return 0;
 
         //we can alo write the entire 10 lines of code above in one line below.
