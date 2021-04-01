@@ -18,7 +18,7 @@ public class Main {
         String[] strArray = {"eat", "tea", "tan", "ate", "nat", "bat"};
         daySixChallenge.groupAnagrams(strArray);
 
-        int stockPrice[] = {7, 1, 5, 3, 6, 4};
+        /*int stockPrice[] = {7, 1, 5, 3, 6, 4};
         dayFiveChallenge.maxProfit(stockPrice);
         int arrayWithZeros[] = {1, 2, 0, 3, 6};
         dayFourChallenge.moveZeroes(arrayWithZeros);
@@ -32,6 +32,6 @@ public class Main {
         int sampleArray[] = {4, 1, 2, 1, 2};
 
         int result = dayOneChallenge.singleNumber(sampleArray);
-        System.out.println(result);
+        System.out.println(result);*/
     }
 }
