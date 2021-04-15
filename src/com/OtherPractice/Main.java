@@ -1,5 +1,8 @@
 package com.OtherPractice;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
   public static void main(String args[]) {
     /*ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
@@ -12,9 +15,17 @@ public class Main {
     String listOfStrings[] = {"sanju","chandu","sanju","sanju","fuck","suck","test","fuck"};
     duplicateStrings.findDuplicates(listOfStrings);
      */
-    RemoveElement removeElement = new RemoveElement();
+  /*  RemoveElement removeElement = new RemoveElement();
     int[] elements = {3, 2, 2, 3};
     int rmElement = 3;
-    removeElement.removeElement(elements, rmElement);
+    removeElement.removeElement(elements, rmElement);*/
+
+  SortUsingComparator sortUsingComparator = new SortUsingComparator();
+    List<String> names = new ArrayList<>();
+    names.add("chandu");
+    names.add("sanju");
+    names.add("chandra");
+    names.add("sandhya");
+    sortUsingComparator.sortElements(names);
   }
 }
