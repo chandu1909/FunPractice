@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b47f8db9-390d-44f2-a7b4-3bc4bf3b4726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Amazon/SearchInRotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Amazon/SortArrayBasedonSecondArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Amazon/AmazonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Amazon/IsRobotBoundedCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Amazon/SearchWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Amazon/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Amazon/SquareNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Amazon/multiDimensionalPRactice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/EPAMPractice/HackerRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/OtherPractice/MapPratice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/OtherPractice/practiceTreeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/Amazon/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/Amazon/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/Amazon/SearchInRotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/Amazon/SearchInRotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/Amazon/SortArrayBasedonSecondArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/Amazon/SortArrayBasedonSecondArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayThirteenChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayThirteenChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunPractice/com/LeetCodeThirtyDayChallenge/week2/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Amazon/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Amazon/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Amazon/SearchInRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Amazon/SearchInRotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayThirteenChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayThirteenChallenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/DayTwelveChallnge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LeetCodeThirtyDayChallenge/week2/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +52,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -44,46 +68,7 @@
       <recent name="com.LeetCodeThirtyDayChallenge.week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LeetCodeThirtyDayChallenge.week1.Main" />
-      <module name="FunPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.LeetCodeThirtyDayChallenge.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LCEasy.Main" />
-      <module name="FunPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.LCEasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.League.Main" />
-      <module name="FunPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.League.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SquareNumbers">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.OtherPractice.Main" />
       <module name="FunPractice" />
@@ -98,6 +83,19 @@
       </method>
     </configuration>
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.contests.MainClass" />
+      <module name="FunPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.contests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Amazon.MainClass" />
       <module name="FunPractice" />
       <extension name="coverage">
@@ -110,20 +108,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Amazon.SearchWord" />
+      <module name="FunPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Amazon.SquareNumbers" />
+      <module name="FunPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.MainClass (1)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.SearchWord" />
+      <item itemvalue="Application.SquareNumbers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass (1)" />
+        <item itemvalue="Application.SquareNumbers" />
+        <item itemvalue="Application.SearchWord" />
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.MainClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +163,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -151,99 +176,6 @@
       <updated>1585785212324</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser" timestamp="1617432247357">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="558" y="191" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1617432247357" />
-    <state x="483" y="228" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1617478763847">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="483" y="228" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1617478763847" />
-    <state x="483" y="228" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1504.963@0.0.1504.963" timestamp="1617333955133" />
-    <state x="638" y="184" width="438" height="456" key="#xdebugger.evaluate" timestamp="1618721252188">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="638" y="184" width="438" height="456" key="#xdebugger.evaluate/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618461048174" />
-    <state x="638" y="184" key="#xdebugger.evaluate/0.0.1504.963@0.0.1504.963" timestamp="1618721252188" />
-    <state x="533" y="236" key="FileChooserDialogImpl" timestamp="1617435004851">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="533" y="236" key="FileChooserDialogImpl/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1617435004851" />
-    <state x="533" y="236" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1616048866920" />
-    <state width="1461" height="239" key="GridCell.Tab.0.bottom" timestamp="1618783142357">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="239" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618783142357" />
-    <state width="1461" height="281" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1618726281086" />
-    <state width="1461" height="239" key="GridCell.Tab.0.center" timestamp="1618783142357">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="239" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618783142357" />
-    <state width="1461" height="281" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1618726281085" />
-    <state width="1461" height="239" key="GridCell.Tab.0.left" timestamp="1618783142357">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="239" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618783142357" />
-    <state width="1461" height="281" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1618726281085" />
-    <state width="1461" height="239" key="GridCell.Tab.0.right" timestamp="1618783142357">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="239" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618783142357" />
-    <state width="1461" height="281" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1618726281086" />
-    <state width="1461" height="281" key="GridCell.Tab.1.bottom" timestamp="1618782020090">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="281" key="GridCell.Tab.1.bottom/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618782020090" />
-    <state width="1461" height="281" key="GridCell.Tab.1.bottom/0.0.1504.963@0.0.1504.963" timestamp="1618726281438" />
-    <state width="1461" height="281" key="GridCell.Tab.1.center" timestamp="1618782020089">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="281" key="GridCell.Tab.1.center/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618782020089" />
-    <state width="1461" height="281" key="GridCell.Tab.1.center/0.0.1504.963@0.0.1504.963" timestamp="1618726281438" />
-    <state width="1461" height="281" key="GridCell.Tab.1.left" timestamp="1618782020089">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="281" key="GridCell.Tab.1.left/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618782020089" />
-    <state width="1461" height="281" key="GridCell.Tab.1.left/0.0.1504.963@0.0.1504.963" timestamp="1618726281438" />
-    <state width="1461" height="281" key="GridCell.Tab.1.right" timestamp="1618782020089">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state width="1461" height="281" key="GridCell.Tab.1.right/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1618782020089" />
-    <state width="1461" height="281" key="GridCell.Tab.1.right/0.0.1504.963@0.0.1504.963" timestamp="1618726281438" />
-    <state x="449" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1618525707167">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="449" y="305" key="com.intellij.ide.util.TipDialog/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1617433202044" />
-    <state x="449" y="305" key="com.intellij.ide.util.TipDialog/0.0.1504.963@0.0.1504.963" timestamp="1618525707167" />
-    <state x="2256" y="0" width="1093" height="951" maximized="true" key="dock-window-1" timestamp="1616290155369">
-      <screen x="2256" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2256" y="0" width="1093" height="951" maximized="true" key="dock-window-1/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1616290155369" />
-    <state x="2256" y="0" width="1093" height="646" maximized="true" key="dock-window-2" timestamp="1616394196456">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="2256" y="0" width="1093" height="646" maximized="true" key="dock-window-2/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1616375479355" />
-    <state x="2256" y="0" width="1093" height="646" maximized="true" key="dock-window-2/0.0.1504.963@0.0.1504.963" timestamp="1616394196456" />
-    <state x="2889" y="4" width="729" height="440" maximized="true" key="dock-window-3" timestamp="1616562362080">
-      <screen x="2256" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2889" y="4" width="729" height="440" maximized="true" key="dock-window-3/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1616562362080" />
-    <state x="2256" y="0" width="1093" height="660" key="dock-window-3/0.0.1504.963@0.0.1504.963" timestamp="1616523750949" />
-    <state x="448" y="218" width="609" height="526" key="find.popup" timestamp="1617306312632">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="448" y="218" width="609" height="526" key="find.popup/0.0.1504.963@0.0.1504.963" timestamp="1617306312632" />
-    <state x="41" y="187" key="new project wizard" timestamp="1616568676790">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="41" y="187" key="new project wizard/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1616568676790" />
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1617213146474">
-      <screen x="0" y="0" width="1504" height="963" />
-    </state>
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963/2256.0.1920.1040@0.0.1504.963" timestamp="1616566556428" />
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1617213146474" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -309,14 +241,49 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/contests/MainClass.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/LCEasy/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SearchInRotateArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SearchInRotateArray.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SearchWord.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SearchWord.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SearchWord.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SquareNumbers.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SquareNumbers.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Amazon/SquareNumbers.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

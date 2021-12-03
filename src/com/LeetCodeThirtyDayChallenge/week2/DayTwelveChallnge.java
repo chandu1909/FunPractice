@@ -24,6 +24,7 @@ public class DayTwelveChallnge {
         for (int i : stones) {
             priorityQueue.add(i);
         }
+        System.out.print(priorityQueue);
         while (priorityQueue.size() != 1) {
             int stone1 = priorityQueue.poll(); //poll method fetches the first element and deletes it which helps us not doing naother operation to delete
             int stone2 = priorityQueue.poll();
@@ -36,3 +37,28 @@ public class DayTwelveChallnge {
     }
 
 }
+
+class Solution {
+    public int minMeetingRooms(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]); // Sort by start
+
+        // Record meeting that takes 1 room, sorted by earliest ending time
+        PriorityQueue<int[]> currMeetings = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+
+        int maxRooms = 0;
+        for (int[] interval: intervals) {
+
+            // if earilest end meeting ends before next, we let next meeting use the room
+            if (!currMeetings.isEmpty() && currMeetings.peek()[1] <= interval[0]) {
+                currMeetings.poll();
+            }
+            // Whether we have room or not, we must proceed next meeting
+            currMeetings.add(interval);
+
+            // Max meeting proceeding simuly
+            maxRooms = Math.max(maxRooms, currMeetings.size());
+        }
+        return maxRooms;
+    }
+}
+

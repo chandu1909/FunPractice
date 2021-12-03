@@ -12,6 +12,9 @@ import java.util.Arrays;
 public class DayThirteenChallenge {
     public int findMaxLength(int[] nums) {
 
+        BinaryTree binaryTree = null;
+        binaryTree.root= new Node();
+
         int[] arr = new int[2 * nums.length + 1];
         Arrays.fill(arr, -2);
         arr[nums.length] = -1;

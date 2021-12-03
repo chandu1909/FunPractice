@@ -13,6 +13,10 @@ class Node
         data = item;
         left = right = null;
     }
+
+    public Node() {
+
+    }
 }
 
 /* Class to print the Diameter */

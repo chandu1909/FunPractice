@@ -36,16 +36,22 @@ public class MainClass {
     int[] arr2 = {2,4};
     medianOfTheTwoSortedArrays.findMedianSortedArrays(arr1,arr2);*/
 
-/*
+
   //Search in Rotated Sorted Array
     SearchInRotateArray searchInRotateArray = new SearchInRotateArray();
-    int[] nums = {4,5,6,7,0,1,2};
-    System.out.print("target location is: "+searchInRotateArray.search(nums,4));*/
+    int[] nums = {1,3};
+    System.out.print("target location is: "+searchInRotateArray.search(nums,2));
 
+/*//sort array relative to second array
 SortArrayBasedonSecondArray sortArrayBasedonSecondArray = new SortArrayBasedonSecondArray();
 int[] arr1 = {2,3,1,3,2,4,6,7,9,2,19};
 int[] arr2 = {2,1,4,3,9,6};
-sortArrayBasedonSecondArray.relativeSortArray(arr1,arr2);
+sortArrayBasedonSecondArray.relativeSortArray(arr1,arr2);*/
+
+/*//check robot bounded circle
+    IsRobotBoundedCircle isRobotBounded = new IsRobotBoundedCircle();
+    System.out.println(
+    isRobotBounded.isRobotBounded("GL"));*/
 
   }
 }

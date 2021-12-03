@@ -11,6 +11,7 @@ public class Main {
 
         //@Todo I need to figure out a way to pass a complete linkedlist the method.
         // dayEightChallenge.middleNode(new ListNode(2));
+/*
 
         DayNineChallenge dayNineChallenge = new DayNineChallenge();
         dayNineChallenge.backspaceCompare("ab#c", "ad#c");
@@ -23,19 +24,20 @@ public class Main {
         dayTenChallenge.pop();
 
         DayElevenChallenge dayElevenChallenge = new DayElevenChallenge();
+*/
 
         //dayElevenChallenge.diameterOfBinaryTree()
         DayTwelveChallnge dayTwelveChallnge = new DayTwelveChallnge();
         int []a = {9,10,1,7,3};
         dayTwelveChallnge.lastStoneWeight(a);
-
+/*
         DayThirteenChallenge dayThirteenChallenge = new DayThirteenChallenge();
         int binaryArray[] = {1,0,0,0,1};
         dayThirteenChallenge.findMaxLength(binaryArray);
 
         DayFourteenChallenge dayFourteenChallenge = new DayFourteenChallenge();
         int matrix[][] = {{1,1},{1,1},{0,2},{1,3}};
-        dayFourteenChallenge.stringShift("abcdefg",matrix);
+        dayFourteenChallenge.stringShift("abcdefg",matrix);*/
 
     }
 }

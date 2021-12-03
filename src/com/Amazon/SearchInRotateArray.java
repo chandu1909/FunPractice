@@ -7,25 +7,34 @@ import java.util.Arrays;
 public class SearchInRotateArray {
   public int search(int[] nums, int target) {
 
-    int start = 0, end = nums.length - 1;
+    if(nums.length == 0){
+      return -1;
+    }
 
-    while (start <= end) {
 
-      int mid = start + (end - start) / 2;
+    int midPoint = nums[(nums.length/2)];
 
-      if (nums[mid] == target) return mid;
+    //if the array is not rotated
+    if(nums[0] < nums[nums.length -1]){
+      return Arrays.binarySearch(nums,target);
+    }
 
-      else if (nums[mid] >= nums[start]) {
-
-        if (target >= nums[start] && target < nums[mid]) end = mid - 1;
-        else start = mid + 1;
-      }
-      else {
-        if (target <= nums[end] && target > nums[mid]) start = mid + 1;
-        else end = mid - 1;
+    if(target > midPoint){
+      for(int i =0; i< nums.length/2;i++){
+        if(target == nums[i]){
+          return i;
+        }
       }
     }
-    return -1;
+    else{
+      for(int j= nums.length/2; j< nums.length; j++){
 
+        if(target == nums[j]){
+          return j;
+        }
+      }
+    }
+
+    return -1;
     }
 }
